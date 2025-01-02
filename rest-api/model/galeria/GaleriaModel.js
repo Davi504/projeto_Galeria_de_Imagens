@@ -1,6 +1,6 @@
 const db = require('../..//banco/dbConexao.js');
 
-class GaleriaModel {
+module.exports = class GaleriaModel {
 
     static getTodos(callback){
         return db.query("SELECT * FROM tb_galeria", callback);

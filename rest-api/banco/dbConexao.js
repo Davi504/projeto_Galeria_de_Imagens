@@ -6,3 +6,5 @@ const conexao = mysql.createPool({
     password: '',
     dabatase: 'db_galeria'
 });
+
+module.exports = conexao;
